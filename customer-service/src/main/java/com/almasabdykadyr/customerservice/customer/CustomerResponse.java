@@ -4,5 +4,5 @@ public record CustomerResponse(
         String firstname,
         String lastname,
         String email,
-        String address) {
+        Address address) {
 }
