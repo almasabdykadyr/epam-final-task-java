@@ -3,6 +3,7 @@ package com.almasabdykadyr.rentservice.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.time.LocalDateTime;
 import java.util.UUID;
 
 @Entity
@@ -22,5 +23,5 @@ public class Rent {
 
     @Enumerated(EnumType.STRING)
     private Status status;
-    priavte
+    private LocalDateTime createdAt;
 }
