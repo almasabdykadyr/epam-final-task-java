@@ -126,3 +126,4 @@
 ## TODO: ЗАКОНЧИТЬ НАПИСАНИЕ СЕРВИСОВ, И ИСПОЛЬЗОВАННЫХ ТЕХНОЛОГИЙ, ДОБАВИТЬ SWAGGER, AUTH ЧЕРЕЗ KEYCLOAK
 
 добавил spring cloud config для подтягивания конфигов.
+использовал monorepo, но нет database per service
