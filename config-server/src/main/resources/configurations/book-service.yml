@@ -1,0 +1,6 @@
+server:
+  port: 8100
+spring:
+  data:
+    mongodb:
+      uri: mongodb://user:user@localhost:27017/books
